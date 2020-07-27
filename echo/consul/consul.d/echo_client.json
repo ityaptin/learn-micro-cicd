@@ -1,0 +1,7 @@
+{
+    "service": {
+        "name": "echo-client",
+        "tags": ["echo", "client", "echo-client"],
+        "port": 13001
+    }
+}

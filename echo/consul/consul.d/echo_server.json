@@ -1,0 +1,14 @@
+{
+    "service": {
+        "name": "echo-server",
+        "tags": ["echo", "server", "echo-server"],
+        "port": 13002,
+        "check": {
+            "name": "curl_check",
+            "args": ["curl", "learn.hashicorp.com"],
+            "interval": "30s",
+            "status": "passing"
+          }
+    }
+    
+}
